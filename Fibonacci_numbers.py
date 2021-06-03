@@ -8,7 +8,7 @@
 def fibonacci_num(n):
     past = 0
     current = 1
-    list = [past, current]
+    lst = [past, current]
 
     i = 0
     while i < n-2:
@@ -17,8 +17,8 @@ def fibonacci_num(n):
 
         past = current
         current = next
-        list += [next]
-    return list
+        lst += [next]
+    return lst
 
 # 주어진 임의의 수보다 작은 값들로 항이 구성된 피보나치 수열
 def fibonacci_less(n):
